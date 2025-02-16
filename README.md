@@ -9,6 +9,7 @@
 
 # General
 
+https://github.com/ivanversluis/pentest-hacktricks/blob/master/pentesting/6379-pentesting-redis.md 
 
 <aside>
 💡 For Finding all important files in Windows (CTF Style)
